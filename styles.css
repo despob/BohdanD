@@ -1,35 +1,38 @@
 body { 
     font-family: 'Montserrat', sans-serif;
-    background-color: #F5F7FA;
+    background-color: rgb(255, 255, 255);
+    
 }
 
 .box {
     margin: 20px auto;
     position: relative;
-    width: 1300px;
-    height: 1300px;
-    background: #f8f9f8;
+    width: 1180px;
+    height: 1180px;
+    background: #659475;
+    
     
 }
     
 /* main styles */
 .main {
-    width: 1240px;
-    height: 1240px;
-    display: flex;
+    margin: 40px auto;
+    width: 1120px;
+    height: 1120px;
+    display: flex; 
     flex-direction: row-reverse;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    box-shadow: 10px 10px 10px rgba(0.1, 0.1, 0.1, 0.1);
+    padding-top: 28px;
+    padding-bottom: 18px;
+    padding-left: 10px;
+    padding-right: 0px;
+    
 }
 
 .main_content { 
     background-color: #FFFFFF;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-    padding: 90px 90px 90px;
-    padding-right: 200px;
+    padding: 70px 90px 90px;
+    padding-right: 90px;
     
 }
 
@@ -41,7 +44,7 @@ body {
 .about-position {
     font-style: normal;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 17px;
     color: #00771a;
     margin-bottom: 10px;
@@ -60,13 +63,14 @@ body {
 
 
 .about-discription {
-    font-style: normal;
+    font-style: bold;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
-    color: #595959;
+    color: #3f3f3f;
     width: 580px;
     text-align: justify;
+    margin-bottom: 50px;
 }
 
 
@@ -78,7 +82,7 @@ body {
 .title {
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 24px;
     line-height: 27px;
     color: #000000;
     margin-bottom: 10px;
@@ -138,7 +142,8 @@ body {
     line-height: 20px;
     color: #000000;
     margin-bottom: 5px;
-    margin-top: 25px;
+    margin-top: 5px;
+
 }
 
 .oline {
@@ -151,15 +156,20 @@ body {
 
 .organization {
     color: #00771a;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 5px;
 }
 
 .period {
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 15px;
-    color: #A8A8A8;
-    margin-bottom: 10px;
+    color: #8d8d8d;
+    margin-bottom: 5px;
     margin-top: 5px;
 }
 
@@ -189,11 +199,12 @@ body {
     width: 327px;
     height: 114px;
     padding-bottom: 90px;
+    padding-top: 30px;
 }
 
 .edu-title {
     font-weight: 700;
-    font-size: 22px;
+    font-size: 24px;
     color: #000000;
     margin-bottom: 15px;
 }
@@ -206,13 +217,13 @@ body {
     line-height: 20px;
     color: #00771a;
     margin-bottom: 5px;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 .spec {
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 17px;
     color: #000000;
     margin-bottom: 5px;
@@ -221,16 +232,26 @@ body {
 
 /* sidebar styles */
 .sidebar { 
-    padding-top: 40px ;
-    background-color: #577a5e ;
+    padding-top: 50px ;
+    background-color: #3a665c ;
 }
 .photo { 
     width: 370px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+.email {
+    width: 40px;
+    margin-right: 5px;
+    
+
 }
 
 .tel {
-    width: 20px;
+    width: 30px;
+    margin-right: 10px;
+    padding-left: 5px;
+
 }
 
 .sidebar-title {
@@ -243,7 +264,7 @@ body {
 }
 
 .contacts, .tech-skills, .soft-skills {
-    margin-left: 40px;
+    margin-left: 70px;
 }
 
 .tech-skills {
@@ -251,7 +272,7 @@ body {
 }
 
 .contacts {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .contact-type {
@@ -266,9 +287,10 @@ body {
 .contact-link {
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
-    color: #2C3645;
+    color: #4f2e9b;
+   
 }
 
 .TeSo-list {
@@ -285,6 +307,6 @@ body {
     color: #F5F7FA;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;   
 }
